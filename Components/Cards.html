@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+
+   <title>Portfolio Mini Design System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="icon" type="image/png" href="./Img/Favicon.png">
+    <link rel=" shortcut icon" type="image/png" href="../Img/Favicon.png">
+    <link rel="apple-touch-icon" href="Img/Favicon.png">
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/Style.css" rel="stylesheet">
+    <link href="../css/Component.css" rel="stylesheet">
+  </head>
+
+  <body>
+    
+
+
+<main class="d-flex flex-nowrap">
+ 
+<!-- This determines the width of the sidebar. Change if needed. -->
+<div class="flex-shrink-0 p-3" style="width: 300px;" style="color: black;">
+    
+  <a href="../index.html" class="d-flex align-items-center pb-3 mb-3 border-bottom">
+    <img class="Logo" src="../Img/Text for Design System.svg" width="100%" alt="x">
+  </a>
+  
+  <ul class="list-unstyled ps-0">
+    <li class="mb-1">
+      <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+      data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="false">
+      Foundations
+      </button>
+      <div class="collapse" id="foundations-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="../Foundation/Type.html" class="link-dark d-inline-flex text-decoration-none rounded">Typography</a></li>
+          <li><a href="../Foundation/Color.html" class="link-dark d-inline-flex text-decoration-none rounded">Color</a></li>
+          <li><a href="../Foundation/Logo.html" class="link-dark d-inline-flex text-decoration-none rounded">Logo</a></li>
+  
+        </ul>
+      </div>
+    </li>
+
+    <li class="mb-1">
+      <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+      data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
+       Components
+      </button>
+      <div class="collapse" id="components-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="../Components/Buttons.html" class="link-dark d-inline-flex text-decoration-none rounded">Buttons</a></li>
+          <li><a href="../Components/NavigationBars.html" class="link-dark d-inline-flex text-decoration-none rounded">Navigation Bar</a></li>
+          <li><a href="../Components/Cards.html" class="link-dark d-inline-flex text-decoration-none rounded">Cards</a></li>
+
+        </ul>
+      </div>
+    </li>
+    <li class="mb-1">
+      <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
+      data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
+        Page Patterns
+      </button>
+      <div class="collapse" id="patterns-collapse">
+        <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+          <li><a href="../Patterns/Page1.html" class="link-dark d-inline-flex text-decoration-none rounded">Home</a></li>
+          <li><a href="../Patterns/Page2.html" class="link-dark d-inline-flex text-decoration-none rounded">Projects</a></li>
+     
+        </ul>
+      </div>
+    </li>
+ 
+  </ul>
+</div>
+<div class="b-example-divider b-example-vr"></div>
+
+    <!-- Page Content  -->
+    <div class="container-fluid overflow-auto">
+    <div class="container">
+      <div class="row p-5 pt-6">
+        <div id="content">
+
+          <h1>Cards</h1>
+          <div class="col-8">
+            <p>Cards are used within this design system to link to examples of work. Cards include an image, category,
+              project title, and summary describing the content, as well as a link to the content.</p>
+          </div>
+          <h2>Card Examples</h2>
+
+          <div class="row mb-5 card-example">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="card">
+                <img src="../Img/Hero image.svg"
+                     class="card-img-top"
+                     alt="placeholder image of light grey rectangle with white x on top">
+                <div class="card-body">
+                  <h3 class="card-subtitle mb-2">Category</h3>
+                  <h2 class="card-title">Project Title</h2>
+                  <p class="card-text">A brief summary of the card's linked
+                    content.</p>
+                  <a href="#"
+                     class="card-link">Link to content</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6">
+              <div class="card">
+                <img src="../Img/Hero image.svg"
+                     class="card-img-top"
+                     alt="placeholder image of light grey rectangle with white x on top">
+                <div class="card-body">
+                  <h3 class="card-subtitle mb-2">Category</h3>
+                  <h2 class="card-title">Project Title</h2>
+                  <p class="card-text">A brief summary of the card's linked
+                    content.</p>
+                  <a href="#"
+                     class="card-link">Link to content</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-8">
+            <h2>Accessibility Considerations</h2>
+
+            <p>To ensure accessibility, always include descriptive and meaningful alt text for card images and always
+              style
+              links as described in the <a href="../Foundation/Type.html">typography section</a>.</p>
+
+            <h2>Usage</h2>
+
+            <ul>
+              <li>Use cards to display a preview of content presented on other pages.</li>
+              <li>Cards may be used to link to external sites and content.</li>
+              <li>Cards must include a link, image, descriptive category, project title, and brief summary of the linked
+                content.</li>
+            </ul>
+
+
+            <h2>Code Examples</h2>
+            <pre><code>&lt;div class=&quot;row mb-5&quot;&gt;
+  &lt;div class=&quot;col-xs-12 col-sm-12 col-md-12 col-lg-6&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;img src=&quot;../img/img-placeholder.svg&quot;
+            class=&quot;card-img-top&quot;
+            alt=&quot;placeholder image of light grey rectangle with white x on top&quot;&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;h3 class=&quot;card-subtitle mb-2&quot;&gt;Category&lt;/h3&gt;
+        &lt;h2 class=&quot;card-title&quot;&gt;Project Title&lt;/h2&gt;
+        &lt;p class=&quot;card-text&quot;&gt;A brief summary of the card&apos;s linked
+          content.&lt;/p&gt;
+        &lt;a href=&quot;#&quot;
+            class=&quot;card-link&quot;&gt;Link to content&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;col-sm-12 col-md-12 col-lg-6&quot;&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;img src=&quot;../img/img-placeholder.svg&quot;
+            class=&quot;card-img-top&quot;
+            alt=&quot;placeholder image of light grey rectangle with white x on top&quot;&gt;
+      &lt;div class=&quot;card-body&quot;&gt;
+        &lt;h3 class=&quot;card-subtitle mb-2&quot;&gt;Category&lt;/h3&gt;
+        &lt;h2 class=&quot;card-title&quot;&gt;Project Title&lt;/h2&gt;
+        &lt;p class=&quot;card-text&quot;&gt;A brief summary of the card&apos;s linked
+          content.&lt;/p&gt;
+        &lt;a href=&quot;#&quot;
+            class=&quot;card-link&quot;&gt;Link to content&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+          </div>
+
+        </div> <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+  </div>
+
+
+
+  
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+<script src="../js/sidebars.js"></script>
+      <script src="../js/prism.js"></script> 
+  </body>
+</html>

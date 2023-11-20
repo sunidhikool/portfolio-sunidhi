@@ -1,0 +1,209 @@
+import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+google-font-text{
+    font-family: 'Montserrat' !important;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    font-weight: normal;
+    background: #ffffff;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #8491a0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  li {
+    margin-top: 0;
+    color: #8491a0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    color: #151515;
+    font-weight: 400;
+  }
+
+.btn-primary{
+    background-color: #FF8C81;
+    border-color: #FF8C81;
+}
+
+
+
+.btn-outline-primary{
+    border-color: #FF8C81;
+    color: #FF8C81;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-inverse{
+color: grey !important;
+}
+
+.btn-primary:hover{
+    background-color: #FF8C81;
+    border-color: #FF8C81;
+}
+
+.btn-outline-primary:hover{
+    background-color: #FF8C81;
+    border-color: #FF8C81;
+}
+
+hr{
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    background-color: lightgrey;
+}
+
+pre{
+    color: #8491a0;
+}
+
+
+.card {
+background-color: #181823;
+
+}
+
+.image-placeholder1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex: 1;
+    height: auto;
+    position: relative;
+    overflow: visible;
+}
+
+.card-body1 {
+    padding: 0px 16px 44px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.project-title1 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--heading-5, 700 20px 'Lato-Bold', sans-serif);
+    position: relative;
+    align-self: stretch;
+}
+
+.body-text1 {
+    color: #ffffff;
+    text-align: left;
+    font: var(--smallbody, 400 12.8px 'Lato-Regular', sans-serif);
+    position: relative;
+    align-self: stretch;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.p-5 {
+    padding: 3rem !important;
+}
+
+.pt-6, .py-6 {
+    padding-top: 3.5rem !important;
+}
+
+.nav-bar-color{
+    background: rgb(255,255,255) !important;
+}
+
+.nav-link{
+    color: rgb(85,85,85) !important;
+}
+
+.nav-link:hover{
+    color: lightblue !important;
+}
+
+.nav-highlight, .navbar-brand{
+    color: rgb(37, 40, 42) !important;
+    font-weight: 700;
+}
+
+.navbar-toggler{
+    filter: invert(100);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.card-image {
+  display: flex;
+  height: 40%;
+}
+
+.card-image img {
+  width: 100%;
+}
+
+h3.card-subtitle {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #777777;
+}
+
+p.card-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--dark-blue);
+}
+
+.footer{
+    background-color: #132238;
+
+}
+
+.text-footer{
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+   
+   
+    
